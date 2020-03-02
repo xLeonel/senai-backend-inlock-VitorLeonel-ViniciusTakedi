@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {}
+    "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {
+    "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+        "projectUniqueName": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
         "projectName": "Senai.InLock.WebApi",
-        "projectPath": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+        "projectPath": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+        "outputPath": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
