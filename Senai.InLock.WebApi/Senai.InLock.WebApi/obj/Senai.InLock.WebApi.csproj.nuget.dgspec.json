@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {}
   },
   "projects": {
@@ -12,9 +13,25 @@
         "projectPath": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
         "outputPath": "D:\\Note - Samsung S50\\Area de trabalho\\Gits\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+=======
+    "c:\\Users\\48171009824\\Desktop\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\48171009824\\Desktop\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\48171009824\\Desktop\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+        "projectName": "Senai.InLock.WebApi",
+        "projectPath": "c:\\Users\\48171009824\\Desktop\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+        "packagesPath": "C:\\Users\\48171009824\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\48171009824\\Desktop\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+>>>>>>> 054e9f61a1a98d7de46281fbd98c5bf886cc87dc
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\48171009824\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +83,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
