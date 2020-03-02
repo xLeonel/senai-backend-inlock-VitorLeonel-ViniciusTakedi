@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\48171009824\\Desktop\\senai-backend-inlock-VitorLeonel-ViniciusTakedi\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "Senai.InLock.WebApi",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

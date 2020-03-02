@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.InLock.WebApi", "Senai.InLock.WebApi\Senai.InLock.WebApi.csproj", "{CF160F4C-5A29-419C-B979-01B5AC11E7D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.InLock.WebApi", "Senai.InLock.WebApi\Senai.InLock.WebApi.csproj", "{EDFABE5C-36FF-472A-A437-F25AB91C1862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CF160F4C-5A29-419C-B979-01B5AC11E7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF160F4C-5A29-419C-B979-01B5AC11E7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF160F4C-5A29-419C-B979-01B5AC11E7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF160F4C-5A29-419C-B979-01B5AC11E7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFABE5C-36FF-472A-A437-F25AB91C1862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFABE5C-36FF-472A-A437-F25AB91C1862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFABE5C-36FF-472A-A437-F25AB91C1862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFABE5C-36FF-472A-A437-F25AB91C1862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {520D1D98-4333-4E22-8127-8500EA349D4C}
+		SolutionGuid = {BB6F1171-208B-4F2F-89BD-1FE2EBFD9B45}
 	EndGlobalSection
 EndGlobal
