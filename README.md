@@ -1,1 +1,0 @@
-# senai-backend-inlock-VitorLeonel-ViniciusTakedi

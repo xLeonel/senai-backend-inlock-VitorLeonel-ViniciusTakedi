@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "85df91f9-17ca-42c0-a1cd-df4b7520233a",
+		"name": "Senai.InLock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Estudios",
+			"item": [],
+			"description": "Estudios dos jogos ",
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Jogos",
+			"item": [],
+			"description": "Jogos dos estudios\n",
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Login",
+			"item": [],
+			"description": "Login para verificar se é um usuario ou um Administrador",
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
