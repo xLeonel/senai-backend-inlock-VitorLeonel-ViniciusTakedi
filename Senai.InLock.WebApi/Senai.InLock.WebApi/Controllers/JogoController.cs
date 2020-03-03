@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.InLock.WebApi.Domains;
 using Senai.InLock.WebApi.Interfaces;
@@ -22,8 +23,13 @@ using System.Threading.Tasks;
                     _jogoRepository = new JogoRepository();
                 }
 
-            //-----------------------------------------Atualiza um jogo passando o seu id na url
-            //[Authorize(Roles = "1")]
+            /// <summary>
+            /// Atualiza um jogo passando o seu id na url
+            /// </summary>
+            /// <param name="id"></param>
+            /// <param name="jogoAtualizado"></param>
+            /// <returns>null</returns>
+            [Authorize(Roles = "1")]
             [HttpPut("{id}")]
             public IActionResult PutIdUrl(int id, JogoDomain jogoAtualizado)
             {
@@ -33,9 +39,13 @@ using System.Threading.Tasks;
             }
 
 
-            //-----------------------------------------Para cadastrar um novo Jogo
+            /// <summary>
+            /// Para cadastrar um novo Jogo
+            /// </summary>
+            /// <param name="novoJogo"></param>
+            /// <returns>null</returns>
             [ProducesResponseType(StatusCodes.Status201Created)]
-            //[Authorize(Roles = "1")]
+            [Authorize(Roles = "1")]
             [HttpPost]
             public IActionResult Post(JogoDomain novoJogo)
             {
@@ -44,8 +54,13 @@ using System.Threading.Tasks;
                 return Created("Jogo cadastrado com sucesso", novoJogo);
             }
             
-            //-----------------------------------------Para deletar um usuario
-            //[Authorize(Roles = "1")]
+            /// <summary>
+            /// Para deletar um usuario
+            /// </summary>
+            /// <param name="id"></param>
+            /// <returns>null</returns>
+            [Authorize(Roles = "1")]
+            [ProducesResponseType(StatusCodes.Status200OK)]
             [HttpDelete("{id}")]
              public IActionResult Delete(int id)
              {
@@ -54,7 +69,11 @@ using System.Threading.Tasks;
              }
 
 
-            //-----------------------------------------Para listar todos os jogos
+            /// <summary>
+            /// Para listar todos os jogos
+            /// </summary>
+            /// <returns>Lista de Jogos</returns>
+            [ProducesResponseType(StatusCodes.Status200OK)]
             [HttpGet]
              public IEnumerable<JogoDomain> Get()
              {

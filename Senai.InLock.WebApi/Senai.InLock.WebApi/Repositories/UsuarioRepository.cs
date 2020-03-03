@@ -98,6 +98,19 @@ namespace Senai.InLock.WebApi.Repositories
             }
         }
 
+        public void Cadastar(UsuarioDomain usuario)
+        {
+            using ()
+            {
+                
+            }
+        }
+
+        public void Deletar(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<JogoDomain> ListarTodosJogos()
         {
             throw new System.NotImplementedException();

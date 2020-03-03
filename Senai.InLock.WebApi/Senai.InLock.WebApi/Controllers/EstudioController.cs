@@ -24,7 +24,12 @@ namespace Senai.InLock.WebApi.Controllers
         }
 
 
-        //Atualiza um estudio passando o seu id na url
+        /// <summary>
+        /// Atualiza um estudio passando o seu id na url
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="estudioAtualizado"></param>
+        /// <returns>null</returns>
         [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult PutIdUrl(int id, EstudioDomain estudioAtualizado)
@@ -36,7 +41,11 @@ namespace Senai.InLock.WebApi.Controllers
 
 
 
-        //Para cadastrar um novo Estudio
+        /// <summary>
+        /// Para cadastrar um novo Estudio
+        /// </summary>
+        /// <param name="novoEstudio"></param>
+        /// <returns>null</returns>
         [ProducesResponseType(StatusCodes.Status201Created)]
         [Authorize(Roles = "1")]
         [HttpPost]
@@ -47,7 +56,11 @@ namespace Senai.InLock.WebApi.Controllers
             return Created("Criado",novoEstudio);
         }
 
-
+        /// <summary>
+        /// Deleta um estudio
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>null</returns>
         [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
@@ -56,12 +69,21 @@ namespace Senai.InLock.WebApi.Controllers
             return Ok("Estudio removido");
         }
 
+        /// <summary>
+        /// Listar estudios
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<EstudioDomain> Get()
         {
             return _estudioRepository.Listar();
         }
 
+        /// <summary>
+        /// Buscar por Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult GetId(int id)
         {

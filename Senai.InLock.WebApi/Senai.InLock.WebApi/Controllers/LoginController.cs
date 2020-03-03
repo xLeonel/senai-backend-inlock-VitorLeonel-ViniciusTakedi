@@ -24,6 +24,11 @@ namespace Senai.InLock.WebApi.Controllers
             _usuarioRepository = new UsuarioRepository();
         }
         
+        /// <summary>
+        /// Login
+        /// </summary>
+        /// <param name="Usuario"></param>
+        /// <returns>null</returns>
         [HttpPost]
         public IActionResult Login(LoginViewModel Usuario)
         {

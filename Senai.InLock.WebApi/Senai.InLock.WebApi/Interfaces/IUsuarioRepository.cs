@@ -9,5 +9,7 @@ namespace Senai.InLock.WebApi.Interfaces
         List<UsuarioDomain> ListarUsuarios();
         UsuarioDomain BuscarPorEmailSenha(string email, string senha);
         void Atualizar(int id, UsuarioDomain usuario);
+        void Cadastar(UsuarioDomain usuario);
+        void Deletar(int id);
     }
 }

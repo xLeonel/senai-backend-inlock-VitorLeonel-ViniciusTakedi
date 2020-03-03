@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.InLock.WebApi.Domains;
 using Senai.InLock.WebApi.Interfaces;
@@ -32,17 +34,27 @@ namespace Senai.InLock.WebApi.Controllers
         //     return Ok(_jogosRepository.ListarTodosJogos());
         // }
 
+
+        /// <summary>
+        /// Listar Usuarios
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult ListarUsuarios()
         {
             return Ok(_usuarioRepository.ListarUsuarios());
         }
 
-
-        // POST api/values
+        /// <summary>
+        /// Cadastar Usuarios
+        /// </summary>
+        /// <param name="value"></param>
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post(UsuarioDomain usuario)
         {
+            _usuarioRepository.Cadastar(usuario);
+            return Created("Criado", usuario);
         }
 
         /// <summary>
@@ -58,10 +70,16 @@ namespace Senai.InLock.WebApi.Controllers
         }
 
 
-        // DELETE api/values/5
+        /// <summary>
+        /// Deleta usuario
+        /// </summary>
+        /// <param name="id"></param>
+        [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            _usuarioRepository.Deletar(id);
+            return Ok("Deletado");
         }
     }
 }
