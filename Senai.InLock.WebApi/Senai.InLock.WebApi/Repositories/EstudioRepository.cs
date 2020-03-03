@@ -11,7 +11,9 @@ namespace Senai.InLock.WebApi.Repositories
     public class EstudioRepository : IEstudioRepository
     {
         //para reconhecer o banco de dados (COMPUTADOR TAKEDI)
-        private string stringConexao = "Data Source=LAPTOP-S9Q9QIJS\\SQLEXPRESS; initial catalog=InLock_Games_Tarde; user Id=sa; pwd=holoko09";
+        // private string stringConexao = "Data Source=LAPTOP-S9Q9QIJS\\SQLEXPRESS; initial catalog=InLock_Games_Tarde; user Id=sa; pwd=holoko09";
+        //(banco leonel)
+        private string stringConexao = "Data Source=DEV14\\SQLEXPRESS; initial catalog=InLock_Games_Tarde; user Id=sa; pwd=sa@132";
 
         //Repository para atualizar estudio por Id
         public void AtualizarEstudioIdUrl(int id, EstudioDomain estudio)
@@ -31,7 +33,34 @@ namespace Senai.InLock.WebApi.Repositories
                 }
             }
         }
-        
+
+        public EstudioDomain BuscarId(int id)
+        {
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+                string query = "SELECT IdEstudio, NomeEstudio FROM Estudios where IdEstudio = @Id";
+
+                using (SqlCommand cmd = new SqlCommand(query,con))
+                {
+                    cmd.Parameters.AddWithValue("@Id",id);
+
+                    con.Open();
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        EstudioDomain estudio = new EstudioDomain();
+                        estudio.IdEstudio = Convert.ToInt32(reader[0]);
+                        estudio.NomeEstudio = reader["NomeEstudio"].ToString();
+
+                        return estudio;
+                    }
+                    return null;
+                }
+            }
+        }
+
         //Repository para cadastrar um novo estudio
         public void Cadastrar(EstudioDomain estudio)
         {

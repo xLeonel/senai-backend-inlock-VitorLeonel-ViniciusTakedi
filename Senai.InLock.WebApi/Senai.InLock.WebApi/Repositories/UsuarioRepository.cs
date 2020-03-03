@@ -64,7 +64,7 @@ namespace Senai.InLock.WebApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string query = "select Usuarios.Email, Usuarios.Senha, Usuarios.IdTipoUsuario from Usuarios where Usuarios.Email = @Email and Usuarios.Senha = @Senha";
+                string query = "select Usuarios.IdUsuario, Usuarios.Email, Usuarios.Senha, Usuarios.IdTipoUsuario from Usuarios where Usuarios.Email = @Email and Usuarios.Senha = @Senha";
 
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
@@ -77,6 +77,7 @@ namespace Senai.InLock.WebApi.Repositories
                     if (reader.Read())
                     {
                         UsuarioDomain usuario = new UsuarioDomain();
+                        usuario.IdUsuario = Convert.ToInt32(reader["IdUsuario"]);
                         usuario.Email = reader["Email"].ToString();
                         usuario.Senha = reader["Senha"].ToString();
                         usuario.IdTipoUsuario = Convert.ToInt32(reader["IdTipoUsuario"]);
