@@ -1,3 +1,4 @@
+using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
@@ -50,7 +51,7 @@ namespace Senai.InLock.WebApi.Controllers
                 issuer: "InLock.WebApi",                // emissor do token
                 audience: "InLock.WebApi",              // destinatário do token
                 claims: claims,                          // dados definidos acima
-                // expires: DateTime.Now.AddMinutes(30),    // tempo de expiração
+                expires: DateTime.Now.AddMinutes(30),    // tempo de expiração
                 signingCredentials: creds                // credenciais do token
             );
 

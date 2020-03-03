@@ -53,7 +53,7 @@ namespace Senai.InLock.WebApi
                         IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("senai-inlock-VitorLeonel-ViniciusTakedi-key-auth")),
 
                         // Tempo de expiração do token
-                        // ClockSkew = TimeSpan.FromMinutes(30),
+                        ClockSkew = TimeSpan.FromMinutes(30),
 
                         // Nome da issuer, de onde está vindo
                         ValidIssuer = "InLock.WebApi",
@@ -72,7 +72,10 @@ namespace Senai.InLock.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAuthentication();
+
             app.UseMvc();
+
         }
     }
 }
