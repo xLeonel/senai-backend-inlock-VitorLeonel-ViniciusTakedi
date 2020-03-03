@@ -9,3 +9,19 @@ C:\Users\48171009824\Desktop\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Sen
 C:\Users\48171009824\Desktop\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.AssemblyInfoInputs.cache
 C:\Users\48171009824\Desktop\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.AssemblyInfo.cs
 C:\Users\48171009824\Desktop\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorTargetAssemblyInfo.cache
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.csprojAssemblyReference.cache
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorAssemblyInfo.cache
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorAssemblyInfo.cs
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.AssemblyInfoInputs.cache
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.AssemblyInfo.cs
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.deps.json
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.runtimeconfig.json
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.runtimeconfig.dev.json
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.dll
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.pdb
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.RazorTargetAssemblyInfo.cache
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.dll
+D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.pdb
