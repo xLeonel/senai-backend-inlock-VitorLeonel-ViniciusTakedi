@@ -126,7 +126,7 @@ namespace Senai.InLock.WebApi.Repositories
 
                 using (SqlCommand cmd = new SqlCommand(queryInsert, con))
                 {
-                    cmd.Parameters.AddWithValue("@ID", id);
+                    cmd.Parameters.AddWithValue("@Id", id);
 
                     con.Open();
 
