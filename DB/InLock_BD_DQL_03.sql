@@ -8,6 +8,8 @@ SELECT * FROM Jogos
 
 
 
+
+
 select Jogos.NomeJogo, Estudios.NomeEstudio
 from Jogos
 right outer join Estudios on Estudios.IdEstudio = Jogos.IdEstudio
