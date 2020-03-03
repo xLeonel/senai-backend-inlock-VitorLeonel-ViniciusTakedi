@@ -34,21 +34,3 @@ create table Usuarios (
 	);
 go
 
-
-
-insert into TipoUsuario
-values ('Administrador'),
-		('Cliente')
-
-insert into Usuarios
-values ('admin@admin.com','admin','1'),
-		('cliente@cliente.com','cliente','2')
-
-insert into Estudios 
-values ('Blizzard'),
-		('Rockstar Studios'),
-		('Square Enix')
-
-
-
-
