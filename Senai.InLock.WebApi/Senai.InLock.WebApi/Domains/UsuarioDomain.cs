@@ -9,9 +9,5 @@ namespace Senai.InLock.WebApi.Domains
         public string Senha {get;set;}
         public int IdTipoUsuario {get;set;}
         
-        public UsuarioDomain()
-        {
-            this.IdTipoUsuario = (int)TipoUsuario.Cliente;
-        }
     }
 }

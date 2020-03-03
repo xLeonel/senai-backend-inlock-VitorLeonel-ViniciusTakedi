@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Senai.InLock.WebApi.Domains;
+using Senai.InLock.WebApi.Interfaces;
+using Senai.InLock.WebApi.Repositories;
 
 namespace Senai.InLock.WebApi.Controllers
 {
@@ -13,19 +16,28 @@ namespace Senai.InLock.WebApi.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        // private IJogoRepository _jogoRepository { get; set; }
+        private IUsuarioRepository _usuarioRepository { get; set; }
+
+        public UsuarioController()
         {
-            return new string[] { "value1", "value2" };
+            // _jogoRepository = new JogoRepository();
+            _usuarioRepository = new UsuarioRepository();
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        // Listar Jogos 
+        // [HttpGet]
+        // public IActionResult ListarTodosJogos()
+        // {
+        //     return Ok(_jogosRepository.ListarTodosJogos());
+        // }
+
+        [HttpGet]
+        public IActionResult ListarUsuarios()
         {
-            return "value";
+            return Ok(_usuarioRepository.ListarUsuarios());
         }
+
 
         // POST api/values
         [HttpPost]
@@ -33,11 +45,18 @@ namespace Senai.InLock.WebApi.Controllers
         {
         }
 
-        // PUT api/values/5
+        /// <summary>
+        /// Atualizar Usuario
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public ActionResult Atualizar(int id, UsuarioDomain usuario)
         {
+            _usuarioRepository.Atualizar(id, usuario);
+            return Ok("Atualizado");
         }
+
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
