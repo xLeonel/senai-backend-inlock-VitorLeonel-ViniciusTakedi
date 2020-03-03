@@ -53,12 +53,11 @@ namespace Senai.InLock.WebApi.Repositories
         //Deletar um estudio 
             public void Deletar(int id)
         {
-
                 using (SqlConnection con = new SqlConnection(stringConexao))
                 {
-                string queryDelete = "DELETE FROM Estudios WHERE IdEstudio = @ID";
+                    string queryDelete = "DELETE FROM Estudios WHERE IdEstudio = @ID";
 
-                using (SqlCommand cmd = new SqlCommand(queryDelete, con))
+                    using (SqlCommand cmd = new SqlCommand(queryDelete, con))
                 {
                     cmd.Parameters.AddWithValue("@ID", id);
 
