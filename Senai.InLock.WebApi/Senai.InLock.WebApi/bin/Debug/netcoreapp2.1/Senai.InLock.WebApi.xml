@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.InLock.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.PutIdUrl(System.Int32,Senai.InLock.WebApi.Domains.EstudioDomain)">
+            <summary>
+            Atualiza um estudio passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <param name="estudioAtualizado"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.Post(Senai.InLock.WebApi.Domains.EstudioDomain)">
+            <summary>
+            Para cadastrar um novo Estudio
+            </summary>
+            <param name="novoEstudio"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.Delete(System.Int32)">
+            <summary>
+            Deleta um estudio
+            </summary>
+            <param name="id"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.Get">
+            <summary>
+            Listar estudios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.GetId(System.Int32)">
+            <summary>
+            Buscar por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.JogoController.PutIdUrl(System.Int32,Senai.InLock.WebApi.Domains.JogoDomain)">
+            <summary>
+            Atualiza um jogo passando o seu id na url
+            </summary>
+            <param name="id"></param>
+            <param name="jogoAtualizado"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.JogoController.Post(Senai.InLock.WebApi.Domains.JogoDomain)">
+            <summary>
+            Para cadastrar um novo Jogo
+            </summary>
+            <param name="novoJogo"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.JogoController.Delete(System.Int32)">
+            <summary>
+            Para deletar um usuario
+            </summary>
+            <param name="id"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.JogoController.Get">
+            <summary>
+            Para listar todos os jogos
+            </summary>
+            <returns>Lista de Jogos</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.LoginController.Login(Senai.InLock.WebApi.ViewModels.LoginViewModel)">
+            <summary>
+            Login
+            </summary>
+            <param name="Usuario"></param>
+            <returns>null</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.UsuarioController.ListarUsuarios">
+            <summary>
+            Listar Usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.UsuarioController.Post(Senai.InLock.WebApi.Domains.UsuarioDomain)">
+            <summary>
+            Cadastar Usuarios
+            </summary>
+            <param></param>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.UsuarioController.Atualizar(System.Int32,Senai.InLock.WebApi.Domains.UsuarioDomain)">
+            <summary>
+            Atualizar Usuario
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Deleta usuario
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

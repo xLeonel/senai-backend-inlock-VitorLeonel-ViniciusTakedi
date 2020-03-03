@@ -33,3 +33,5 @@ D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-Vin
 D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.dll
 D:\Note - Samsung S50\Area de trabalho\Gits\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.pdb
 >>>>>>> estudio/jogosController
+C:\Users\48171009824\Desktop\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\bin\Debug\netcoreapp2.1\Senai.InLock.WebApi.xml
+C:\Users\48171009824\Desktop\senai-backend-inlock-VitorLeonel-ViniciusTakedi\Senai.InLock.WebApi\Senai.InLock.WebApi\obj\Debug\netcoreapp2.1\Senai.InLock.WebApi.xml

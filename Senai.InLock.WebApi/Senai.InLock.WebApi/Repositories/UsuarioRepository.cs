@@ -100,15 +100,39 @@ namespace Senai.InLock.WebApi.Repositories
 
         public void Cadastar(UsuarioDomain usuario)
         {
-            using ()
+            using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                
+                string queryInsert = "INSERT INTO Usuarios VALUES (@Email,@Senha , @TipoUsuario)";
+
+                using (SqlCommand cmd = new SqlCommand(queryInsert, con))
+                {
+                    cmd.Parameters.AddWithValue("@Email", usuario.Email);
+                    cmd.Parameters.AddWithValue("@Senha", usuario.Senha);
+                    usuario.IdTipoUsuario = (int)TipoUsuario.Cliente;
+                    cmd.Parameters.AddWithValue("@TipoUsuario", usuario.IdTipoUsuario);
+
+                    con.Open();
+
+                    cmd.ExecuteNonQuery();
+                }
             }
         }
 
         public void Deletar(int id)
         {
-            throw new NotImplementedException();
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+                string queryInsert = "delete from Usuarios where IdUsuario = @Id";
+
+                using (SqlCommand cmd = new SqlCommand(queryInsert, con))
+                {
+                    cmd.Parameters.AddWithValue("@ID", id);
+
+                    con.Open();
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
 
         public List<JogoDomain> ListarTodosJogos()

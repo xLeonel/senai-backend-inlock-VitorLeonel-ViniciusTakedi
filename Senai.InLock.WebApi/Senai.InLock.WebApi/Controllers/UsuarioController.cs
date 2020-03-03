@@ -48,7 +48,7 @@ namespace Senai.InLock.WebApi.Controllers
         /// <summary>
         /// Cadastar Usuarios
         /// </summary>
-        /// <param name="value"></param>
+        /// <param></param>
         [ProducesResponseType(StatusCodes.Status201Created)]
         [HttpPost]
         public IActionResult Post(UsuarioDomain usuario)
