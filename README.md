@@ -10,3 +10,6 @@ um desenvolvedor front-end atuando na empresa, não será necessário construir 
 interface com o usuário. Para isto, deverá ser desenvolvida uma API (trabalhando com JSON),
 para que o front-end (ou até mesmo o mobile) realize e construção com base nas informações
 fornecidas.
+
+#Programa
+Inicie o programa no Visual Studio Code
